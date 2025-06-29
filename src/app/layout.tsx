@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CodeFlex AI - Get Jacked",
-  description: "A modern fitness AI platform to get jacked for free.",
+  title: "SweatGPT.AI- Get Jacked",
+  description: "A modern AI-powered fitness platform, chat to our assistant, Arnold.AI to get your personalized fitness program for free!!!",
 };
 
 export default function RootLayout({
