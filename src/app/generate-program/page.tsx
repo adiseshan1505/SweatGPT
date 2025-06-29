@@ -47,19 +47,20 @@ const GenerateProgramPage = () => {
   };
 
   const handleYes = async () => {
-    // Replace this with actual save logic
-    try {
-      await fetch("/api/save-plan", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ userId: user?.id, plan: currentPlan }),
-      });
-      alert("Plan saved to your profile!");
-    } catch (error) {
-      alert("Failed to save plan.");
-    }
-    setShowFeedbackPrompt(false);
-  };
+  try {
+    await fetch("/api/save-plan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ userId: user?.id, plan: currentPlan }),
+    });
+    alert("Plan saved to your profile!");
+  } catch (error) {
+    console.error(error); 
+    alert("Failed to save plan.");
+  }
+  setShowFeedbackPrompt(false);
+};
+
 
   const handleNo = () => {
     setShowFeedbackPrompt(false);
