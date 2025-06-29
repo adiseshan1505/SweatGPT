@@ -145,7 +145,7 @@ http.route({
         generationConfig: {
           temperature: 0.4, // lower temperature for more predictable outputs
           topP: 0.9,
-          responseMimeType: "application/json",
+          //responseMimeType: "application/json",
         },
       });
 
