@@ -24,20 +24,7 @@
   <li>Prompt feedback: Accept/Reject plan before saving</li>
 </ul>
 
-<h2>📦 Folder Structure Overview</h2>
-<pre>
-├── app/
-│   ├── api/
-│   │   └── save-plan/route.ts    ← API route to save fitness plan
-│   └── generate-program/page.tsx ← Main chat interface
-├── components/                   ← Reusable UI components
-├── lib/                          ← Gemini logic / Convex helpers
-├── convex/                       ← Convex schema and functions
-├── middleware.ts                 ← Clerk middleware (optional)
-├── tailwind.config.ts
-├── tsconfig.json
-└── .env.local                    ← API keys and env variables
-</pre>
+<
 
 <h2>🔑 Environment Variables</h2>
 <p>Create a <code>.env.local</code> file with the following:</p>
