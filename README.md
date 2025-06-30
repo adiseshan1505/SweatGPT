@@ -86,4 +86,4 @@ CONVEX_DEPLOYMENT=your-project-name
 
 <hr />
 
-<p align="center">💪 Stay fit. Stay flexy. Powered by CodeFlex AI.</p>
+<p align="center">💪 Stay fit and happy powered by SweatGPT.ai.</p>
