@@ -58,7 +58,7 @@ CONVEX_DEPLOYMENT=your-project-name
 <h2>⚙️ Setup Instructions</h2>
 
 <ol>
-  <li>Clone this repo: <code>git clone https://github.com/your-username/codeflex-ai</code></li>
+  <li>Clone this repo: <code>git clone https://github.com/adiseshan1505/SweatGPT</code></li>
   <li>Install dependencies: <code>npm install</code></li>
   <li>Create <code>.env.local</code> with the required keys (see above)</li>
   <li>Push Convex schema (if using): <code>npx convex dev</code></li>
